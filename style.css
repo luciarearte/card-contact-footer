@@ -1,0 +1,147 @@
+* {
+    margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+ 
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#B0C4B1 ;
+    padding: 1rem;
+}
+.bar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+body {
+    color:black;
+    text-decoration: none;
+    background-color: #DEDBD2;
+}
+.logo {
+ width: 30px;
+}
+#hero {
+    margin-top: 50px;
+    padding: 50px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero-1 h1 {
+    font-size: 60px;
+    width: 80%;
+    font-weight: 800;
+   background: linear-gradient(#EDAFB8, #BA5370);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family:"oswald", sans-serif;
+}
+
+.hero-1 p {
+    font-size: 20px;
+    width: 70%;
+    font-family: "Jost", sans-serif;
+}
+
+.hero-1 p > span {
+    font-weight: 800;
+}
+.hero-1 a {
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #B0C4B1;
+    padding: 8px 0px;
+    width: 120px;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+.hero-pic{
+    width: 400px;
+    background-color: var;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit-card { 
+    padding: 40px;
+    font-family:"Jost", sans-serif;
+    text-align: center;
+} 
+    
+
+.card-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family:"Jost", sans-serif;
+}
+.card1,.card2,.card3 {
+margin: 10px;
+flex:50%;
+display: flex;
+flex-direction: column;
+font-family:"Jost", sans-serif;
+justify-content: space-around;
+align-items: center;
+
+}
+.icono1,.icono2,.icono3 {
+    width: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact-container {padding:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:10px;
+}
+.contact-card {
+    font-family:"Jost", sans-serif;
+}
+
+.direccion,.mail,.telefono {margin:10px;
+    display: flex;
+flex:50%;
+    align-items: center;
+margin: 10px;
+font-family:"Jost", sans-serif;
+}
+
+.ubi, .email-logo, .tel-logo {display:flex;
+    margin:10px;
+    width:40px;}
+
+    .insta,.twitter,.fb{
+        margin: 10px;
+      width: 30px;}
+
+footer {display:flex;
+    align-items:center;
+justify-content: center;
+font-family:"Jost", sans-serif;
+}
+
+.logo-2 {width: 60px;}
